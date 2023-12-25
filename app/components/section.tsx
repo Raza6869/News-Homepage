@@ -8,7 +8,7 @@ import image3 from "@/assets/images/image-gaming-growth.jpg";
 export default function Section() {
   return (
     <section className="mt-20">
-      <ul className="flex justify-between">
+      <ul className="flex sm:flex-row flex-col justify-between sm:gap-0 gap-6">
         <SectionElement
           image={image1}
           number="01"
