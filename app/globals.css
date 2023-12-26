@@ -9,3 +9,11 @@ nav ul li {
 nav ul li:hover {
   @apply text-Soft-red cursor-pointer;
 }
+
+.open {
+  @apply flex sm:flex-row flex-col sm:gap-10 gap-4 sm:font-normal text-lg bg-white h-screen w-[67vw] px-6 py-40 sm:px-0 sm:py-0 relative right-0 z-10 shadow-[0_0_40px_165px_rgba(0,0,0,0.3)] transition-all ease-linear;
+}
+
+.closed {
+  @apply flex sm:flex-row flex-col sm:gap-10 gap-4 sm:font-normal bg-white h-screen px-4 py-40 sm:px-0 sm:py-0 relative left-96 z-10;
+}

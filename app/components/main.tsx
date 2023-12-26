@@ -15,11 +15,11 @@ export default function Main() {
         src={DeviceSize() < 638 ? mobileImage : desktopImage}
         alt="web image"
       />
-      <div className="flex flex-col sm:flex-row sm:items-center sm:mt-12 mt-6 ">
-        <h1 className="font-extrabold sm:text-6xl text-[42px] leading-10 sm:w-full w- text-left sm:mb-0 mb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:mt-10 mt-6 gap-0 sm:gap-20">
+        <h1 className="font-extrabold sm:text-[55px] text-[42px] leading-tight text-left sm:mb-0 mb-4 w-fit">
           The Bright Future of Web 3.0?
         </h1>
-        <div className="flex flex-col justify-between sm:gap-12 gap-6">
+        <div className="flex flex-col justify-between sm:gap-12 gap-6 w-fit">
           <p className="text-Dark-grayish-blue">
             We dive into next evolution of the web that claims to put the power
             of the platforms back into hands of the people. But is it really

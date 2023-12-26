@@ -2,7 +2,7 @@ import AsideElement from "./asideElement";
 
 export default function Aside() {
   return (
-    <aside className=" bg-Very-dark-blue px-6 py-8">
+    <aside className=" bg-Very-dark-blue px-6 py-8 sm:w-[800px]">
       <h1 className="text-Soft-orange text-4xl font-bold">New</h1>
       <ul className="text-Off-white flex flex-col gap-5">
         <AsideElement

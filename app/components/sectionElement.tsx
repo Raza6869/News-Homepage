@@ -15,8 +15,8 @@ export default function SectionElement({
   desc,
 }: SectionProps) {
   return (
-    <li className="flex gap-5 w-96 items-center">
-      <Image src={image} alt="section image" className="w-36 h-fit" />
+    <li className="flex gap-5 sm:w-96  items-center">
+      <Image src={image} alt="section image" className="sm:w-36 w-28 h-fit" />
       <div className="flex flex-col gap-2">
         <h1 className=" text-Grayish-blue text-3xl font-bold">{number}</h1>
         <h2 className=" font-extrabold text-lg text-Very-dark-blue hover:text-Soft-red hover:cursor-pointer">

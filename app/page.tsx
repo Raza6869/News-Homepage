@@ -8,13 +8,15 @@ import Section from "./components/section";
 
 export default function Home() {
   return (
-    <main className="sm:px-40 px-4 sm:py-4 py-8 ">
+    <main className=" overflow-hidden pb-6">
       <Header />
-      <div className="flex sm:flex-row flex-col gap-6">
-        <Main />
-        <Aside />
+      <div className="sm:px-40 px-4 sm:py-20">
+        <div className="flex sm:flex-row flex-col gap-6">
+          <Main />
+          <Aside />
+        </div>
+        <Section />
       </div>
-      <Section />
     </main>
   );
 }
